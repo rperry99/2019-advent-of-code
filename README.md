@@ -4,9 +4,17 @@ The [Advent of Code](https://adventofcode.com/) is a challenge to do coding prob
 
 ## Log
 
-#### Day 1 (12/5/19)
+#### 12/5/19
 
-- Did part 1 of Day 1. I struggled on part 2. I will come back to it tomorrow.
-- Add a web page front end for the project
+- Day 1
+  - Did part 1 of Day 1. I struggled on part 2. I will come back to it tomorrow.
+  - Add a web page front end for the project
+
+---
+
+#### 12/6/19
+
+- Day 1
+  - Did part 2 of Day 1.
 
 ---

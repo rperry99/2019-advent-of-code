@@ -113,6 +113,20 @@ function FuelCount(mass) {
   return Math.floor(mass / 3) - 2;
 }
 
-answer1.innerHTML = fuelSum;
+answer1.innerHTML = FuelCount(100756);
 
 // Puzzle 2
+let total = 0;
+let buffer, secondBuffer;
+
+for (let j = 0; j < input.length; j++) {
+  buffer = FuelCount(input[j]);
+  do {
+    total += buffer;
+    secondBuffer = buffer;
+    console.log(total);
+    buffer = FuelCount(secondBuffer);
+  } while (buffer > 0);
+}
+
+answer2.innerHTML = total;
