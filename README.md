@@ -26,5 +26,9 @@ The [Advent of Code](https://adventofcode.com/) is a challenge to do coding prob
 
 - Day 2
   - Finished Part 2
+- Day 3
+  - Add HTML and JS
+- All Days
+  - Add back button on the individual day pages so the user can easily go back home.
 
 ---

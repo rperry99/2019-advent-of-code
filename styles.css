@@ -76,3 +76,16 @@ a:hover {
 .answer span {
   border-bottom: solid 2px white;
 }
+
+.back {
+  font-size: 1rem;
+  width: 200px;
+  padding: 0;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+.arrow {
+  font-size: 2rem;
+}
