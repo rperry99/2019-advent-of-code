@@ -100,11 +100,11 @@ let input = [
   79947,
   93518
 ];
-
+const answer1 = document.getElementById("answer1");
+const answer2 = document.getElementById("answer2");
 // Puzzle 1
 
 let fuelSum = 0;
-const answer1 = document.getElementById("answer1");
 
 for (let i = 0; i < input.length; i++) {
   fuelSum += FuelCount(input[i]);

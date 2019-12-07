@@ -16,5 +16,8 @@ The [Advent of Code](https://adventofcode.com/) is a challenge to do coding prob
 
 - Day 1
   - Did part 2 of Day 1.
+- Day 2
+  - Add HTML and JS for Day 2
+  - Finish Puzzle 1
 
 ---

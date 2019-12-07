@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Day 2</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <h1>Day 2</h1>
+    <div class="container">
+      <p>Gravity Alert!</p>
+      <h2>The Problem:</h2>
+      <p class="problem">
+        Oh no, Santa's Gravity Assist system is down! We need to run an intcode
+        system to fix itself so Santa doesn't crash into the moon!
+      </p>
+      <p class="answer">
+        The number at position 0 is... <span id="answer1"></span>!
+      </p>
+
+      <hr />
+
+      <p>Oh no! Fuel also requires fuel!</p>
+      <h2>New Problem:</h2>
+      <p class="problem">
+        Uh oh, the elves realised that fuel ALSO requires fuel and we didn't
+        account for that! Apparently negative or 0 fuel doesn't cost fuel. So we
+        need to keep figuring out how much fuel to add so Santa doesn't run out!
+      </p>
+      <p class="answer">
+        The total amount of fuel required is... <span id="answer2"></span>!
+      </p>
+    </div>
+    <script src="day2.js"></script>
+  </body>
+</html>

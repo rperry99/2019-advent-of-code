@@ -39,6 +39,7 @@ a {
   border-radius: 10px;
   color: white;
   background: red;
+  margin: 10px;
 }
 a:hover {
   background: lightcoral;
@@ -51,6 +52,9 @@ a:hover {
 }
 .pages :nth-child(odd) {
   background: #013220;
+}
+.pages :nth-child(odd):hover {
+  background: #467e69;
 }
 
 .problem {
